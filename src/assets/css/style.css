@@ -1,0 +1,123 @@
+/*button*/
+button{
+  width:100%;
+  height:45px;
+  line-height:45px;
+  text-align: center;
+  font-size:17px;
+  color: #fff;
+  background: #1171af;
+  border:1px solid #1171af;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+.btn{
+  width:80px;
+  text-align: center;
+  padding-top:5px;
+  padding-bottom:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+.btn:active{
+  background: #1171af;
+  color: #fff;
+  border-color: #1171af;
+}
+.btn.btn-red:active{
+  background: #c34442;
+  color: #fff;
+  border-color: #c34442;
+}
+/*list*/
+.list{
+  background: #fff;
+}
+.cell{
+  padding-top:10px;
+  padding-bottom:10px;
+  display: flex;
+  flex-direction: row;
+  border-bottom:1px solid #eee;
+}
+.cell-large{
+  padding-top:20px;
+  padding-bottom:20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom:1px solid #eee;
+}
+.cell-left{
+  padding:0 10px;
+  font-size:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-large-left{
+  padding:0 20px;
+  font-size:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-main{
+  flex:1;
+  height:25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-right{
+  padding:0 10px;
+  font-size:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-large-right{
+  padding:0 20px;
+  font-size:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-title{
+  width:80px;
+  height:25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-large-title{
+  width:110px;
+  height:25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cell-input{
+  width:100%;
+  height:25px;
+  border:none;
+}
+
+.cell-select{
+  width:150px;
+  height:25px;
+  border-color: #eee;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+.cell-textarea{
+  width:100%;
+  height:80px;
+  line-height:25px;
+  border:none;
+  font-size:14px;
+}
+
+
